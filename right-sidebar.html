@@ -1,0 +1,250 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Docs</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Aladin:wght@400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bokor:wght@400&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Caladea:wght@700&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Bitter:wght@400&display=swap" rel="stylesheet">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="right-sidebar is-preload">
+		<div id="page-wrapper">
+				<div id="header">
+						<div class="inner">
+							<header>
+								<h1 id = "Background_heading">RenTales</h1>
+							</header>
+						</div>
+						<nav id="nav">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li>
+									<a href="#">Downloads</a>
+									<ul>
+										<li><a href="https://github.com/AspiringPianist/Ren-Py-Llama2">Downloads</a></li>
+										<li><a href="#">Requirements</a></li>
+										<li><a href="#">Dependencies</a></li>
+									</ul>
+								</li>
+								<li><a href="no-sidebar.html">Docs</a></li>
+								<li><a href="right-sidebar.html">How does it work</a></li>
+							</ul>
+						</nav>
+
+				</div>
+
+			<!-- Main -->
+				<div class="wrapper style1">
+
+					<div class="container">
+						<div class="row gtr-200">
+							<div class="col-8 col-12-mobile" id="content">
+								<article id="main">
+									<br>
+									<header>
+										<h2><a href="#">How It Works</a></h2>
+										<p>
+											Rentales generate Renpy executable scripts along with background characters , music, 
+										</p>
+									</header>
+									<a href="#" class="image featured"><img src="images/Pasted image.png" alt="" /></a>
+									<p>
+										Commodo id natoque malesuada sollicitudin elit suscipit. Curae suspendisse mauris posuere accumsan massa
+										posuere lacus convallis tellus interdum. Amet nullam fringilla nibh nulla convallis ut venenatis purus
+										lobortis. Auctor etiam porttitor phasellus tempus cubilia ultrices tempor sagittis. Nisl fermentum
+										consequat integer interdum integer purus sapien. Nibh eleifend nulla nascetur pharetra commodo mi augue
+										interdum tellus. Ornare cursus augue feugiat sodales velit lorem. Semper elementum ullamcorper lacinia
+										natoque aenean scelerisque vel lacinia mollis quam sodales congue.
+									</p>
+									<section>
+										<header>
+											<h2>Model Utilization</h2>
+										</header>
+										<p>The process begins by selecting a base language model, specifically <strong>Llama2 7b</strong>, known for its capabilities in generating coherent text.We have modified the model to generate better stories for the same prompt.
+										</p>
+									</section>
+									<section>
+										<header>
+											<h2>Story Generation</h2>
+										</header>
+										<p><strong>Prompt-based Story Generation</strong>: The modified model is utilized to generate stories based on specific prompts provided by the user. These prompts serve as starting points for the model to create narrative content.</p><p>
+											<strong>Comparative Analysis</strong>:
+											We have tuned the model to generate better stories.
+											Generated stories are compared with those produced by other models of similar parameters by passing same prompts.
+											This step ensures that the modified model is indeed generating better quality narratives compared to its
+											counterparts.
+										</p>
+									</section>
+									<section>
+										<header>
+											<h2>Text Processing and Parsing</h2>
+										</header>
+										<p><strong>Character Contexts and Scenes</strong>: The generated stories are processed to extract characters, contexts, and scenes. This involves analyzing the text to identify characters, their interactions, and the settings in which the story unfolds.</p>
+										
+									</section>
+									<header>
+										<h2>Sentiment-Analysis Music Settings</h2>
+									</header>
+									<p><strong>Sentiment Analysis:</strong> Another model analyzes every scene of the story and rates it based on a scale of 1 to 5 (1 being negative and 5 being positive). Based on these ratings, our script selects suitable music for each scene.<br></p>
+									<p>If continuous scenes follow around the same rating, the music doesn't change to <strong>maintain a flow</strong>.</p>
+									</section>
+									
+
+								</section>
+								<header>
+									<h2>Character Generation</h2>
+								</header>
+								<p><strong>Contextual Prompts Generation</strong>: The characters extracted from the stories are then fed into an AI-powered prompter. This prompter generates contextual prompts for each character, providing guidance for their development and interactions within the narrative.
+</p><p><strong>Background Prompts:</strong> Additionally, prompts for backgrounds and settings are generated to enrich the storytelling environment. These prompts help set the scene and create a vivid backdrop for the characters' interactions.
+</p><strong>Prompt Refinement:</strong> The generated prompts undergo a refinement process to ensure coherence and relevance to the story. This involved manual adjustments or feedback loops with the prompt generation model to fine-tune the prompts for optimal storytelling.
+								</section>
+
+							</section>
+							<header>
+								<h2>Prompt-based Story Generation</h2>
+							</header>
+							<p><strong>Local Stable Diffusion Model</strong>:The generated prompts undergo a refinement process to ensure coherence and relevance to the story. This involved manual adjustments or feedback loops with the prompt generation model to fine-tune the prompts for optimal storytelling.
+
+							</section>
+
+						</p>
+						<section>
+							<header>
+								<h2>
+									Ren'Py Script Conversion:</h2>
+								</header>
+								<strong>
+									<p>
+Script Formatting</strong> Once the narrative is generated, a script conversion tool formats the text into a Ren'Py runnable format. This format includes all necessary elements such as characters, backgrounds, dialogues, and cues for music and sound effects.
+									</p><p><strong>Integration of Generated Content</strong>: The tool seamlessly integrates the AI-generated characters, backgrounds, and dialogues into the Ren'Py script, ensuring that the narrative is ready for interactive visual novel gameplay.
+Quality Assurance: Before deployment, the Ren'Py script undergoes thorough quality assurance testing to ensure that all elements are correctly integrated and the narrative flows smoothly during gameplay.
+								</p>
+							
+						</section>
+
+<section>
+	<header>
+		<h2>
+		How Can This Be Useful?
+		</h2>
+	</header>
+	<p><strong>Interesting Learning</strong>: 
+	This application of AI can make the learning process more interesting. Instead of reading dry subject matter, we can use
+	the power of AI to generate a story and present the story as an interesting way to learn the subject. 
+	Instead of reading dry subject matter or a summary of the matter, we can see a visual representaion of the subject,
+	helping us visualize and grasp data better.
+	</p>
+
+	<p><strong>Game Development</strong>: 
+		The core of any game is its story and how engaging it is. Game development is a heavy process.
+		To test a storyline for a game, it would be far easier and more efficient to test it in RenPy software rather than 
+		testing it in the actual game. In this way, we can save time, conserve resources, select good storylines and most
+		importantly money.
+	</p>
+
+	<p><strong>Personal Entertainment</strong>: 
+		Individuals who enjoy visual novels but lack the time or creative energy to develop their own stories can use
+		this tool to create personalized visual novel experiences based on their own prompts and preferences.
+	</p>
+
+	<p><strong>Personalized Advertisement</strong>: 
+		Online advertisement in its current state serves the same ad but to the people who are interested or more likely 
+		to become customers. But the inefficiency here is that the same ad is shown to all these people. With RenTales,
+		we can create a personalised ad for a specific person with the data collected about him or her. In this way, 
+		that person can relate to the ad in a personal way and are more likely to convert to customers.
+	</p>
+	
+	</section>
+
+								</article>
+							</div>
+							<div class="col-4 col-12-mobile" id="sidebar">
+								<hr class="first" />
+								<section>
+									<header>
+										<h3 style="margin-top: 20px;"><a href="#">What is Renpy?</a></h3>
+									</header>
+									<p>Ren'Py is a free and open-source visual novel engine used for creating interactive storytelling experiences. It simplifies the process of developing visual novels by providing a scripting language, a comprehensive set of tools, and a framework tailored specifically for creating narrative-driven games with text, images, and sound.
+									</p>
+									<footer>
+										<a href="https://www.renpy.org/" class="button">Learn More</a>
+									</footer>
+								</section>
+								<hr />
+								<section>
+									<header>
+										<h3>Comparision between same model for same prompt before and after modification</h3>
+									</header>
+									<p>
+										Here are the three stages script from non tuned model to final model
+										<a href = "https://github.com/AspiringPianist/RenTales_Official_HackNite/blob/main/COMPARISON.md">Comparisons</a>
+									</p>
+								</div>
+						<hr />
+						<br><br><br><br>
+						</div>
+						<header>
+							<h2 style = "text-align: center;">About the Creators</h2>
+						</header>
+						<div class="row">
+							<article class="col-4 col-12-mobile special">
+								<a href="https://www.linkedin.com/in/unnath-chittimalla-08aaaa287/?originalSubdomain=in" class="image featured"><img src="images/author2.jpg" alt="" /></a>
+								<header>
+									<h3><a href="https://www.linkedin.com/in/unnath-chittimalla-08aaaa287/?originalSubdomain=in">Unnath Chittimalla</a></h3>
+								</header>
+								<p>
+									
+								</p>
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a href="https://www.linkedin.com/in/prakrititz-borah-348b04287/" class="image featured"><img src="images/author1.jpeg" alt="" /></a>
+								<header>
+									<h3><a href="https://www.linkedin.com/in/prakrititz-borah-348b04287/">Prakrititz Borah</a></h3>
+								</header>
+								<p>
+									
+								</p>
+							</article>
+							<article class="col-4 col-12-mobile special">
+								<a href="https://www.linkedin.com/in/santhosh-vodnala-53b3a62a6/?originalSubdomain=in" class="image featured"><img src="images/author3.jpeg" alt="" /></a>
+								<header>
+									<h3><a href="https://www.linkedin.com/in/santhosh-vodnala-53b3a62a6/?originalSubdomain=in">Santosh Vodnala</a></h3>
+								</header>
+							</article>
+						</div>
+					</div>
+
+				</div>
+
+			<!-- Footer -->
+				
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

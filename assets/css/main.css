@@ -2202,17 +2202,25 @@ input, select, textarea {
 			vertical-align: middle;
 		}
 		#logo {
-			display: inline-block;
-			overflow-wrap: break-word;
-			font-family: 'Bokor', cursive;
-			font-weight: 400;
-			font-size: 200px;
-			letter-spacing: 30px;
-			z-index: 4;
-			color: #f6fffc; /* Text color */
-			/* text-shadow: 0 0 10px #aed3d6, 0 0 20px #006D77, 0 0 30px #deebed; Multiple shadows to create the glowing effect */
-			box-shadow: 0rem 0rem 8rem rgba(0 0 0 / 35%)
-		  }
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Bokor', cursive;
+    font-weight: 400;
+    font-size: 10vw; /* Using viewport width units for responsiveness */
+    letter-spacing: 2vw; /* Adjust as needed */
+    z-index: 4;
+    color: #f6fffc;
+    box-shadow: 0rem 0rem 8vw rgba(0 0 0 / 35%); /* Using viewport width units for box-shadow */
+}
+
+/* Media query for adjusting size on smaller screens */
+@media screen and (max-width: 768px) {
+    #logo, #subtitle {
+        font-size: 15vw; /* Adjust as needed for smaller screens */
+        letter-spacing: 3vw; /* Adjust as needed */
+        box-shadow: 0rem 0rem 10vw rgba(0 0 0 / 35%); /* Adjust shadow for smaller screens */
+    }
+}
 		  #subtitle {
 			color: #FFF;
 			font-family: "Book Antiqua";
